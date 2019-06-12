@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class Controller {
-     @RequestMapping("/save" ,method = RequestMethod.GET)
+     @RequestMapping(value="/save" ,method = RequestMethod.GET)
 	public String m() {
 		System.out.println("helllo...");
 		return "Helllo ....";
